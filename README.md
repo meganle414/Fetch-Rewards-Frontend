@@ -38,7 +38,7 @@ This project was built with
 
 <!-- REQUIREMENTS -->
 ## Requirements
-The requirements were taken from [this link](https://fetch-hiring.s3.amazonaws.com/frontend.html)
+The requirements were taken from [this link.](https://fetch-hiring.s3.amazonaws.com/frontend.html)
 
 My task was to build a webpage with a user creation form. The form should take the following required inputs:
 
