@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html { 
+    background: url(images/background.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* header */
+
+.header {
+    background-position: center;
+    background-size: cover;
+    min-height: 20vh;
+    position: relative;
+    width: 100%;
+}
+
+.circle-image {
+    border-radius: 50%;
+}
+
+/* nav */
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #FBA819;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after {
+    background: #fff;
+    content: '';
+    display: block;
+    height: 5px;
+    margin: auto;
+    transition: 0.25s;
+    width: 0%;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+/* body */
+
+.body {
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    min-height: 100vh;
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    color: #300C39;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+p {
+    color: red;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.text-box .fa {
+    margin-left: 20px;
+}
+
+/* form */
+
+form {
+    background-color: #fff;
+    border-radius: 2%;
+    margin-left: 100px;
+    width: 40%;
+}
+
+.fa {
+    color: red;
+}
+
+form label {
+    margin-left: 20px;
+    width: 250px;
+}
+
+form input {
+    margin-left: 20px;
+    width: 250px;
+}
+
+form select {
+    margin-left: 20px;
+    width: 250px;
+}
+
+.form-submit input {
+    background-color: #FBA819;
+    border: 1px solid #FBA819;
+    color: #040404;    
+    width: 100px;
+}
+
+/* thank you */
+
+.thank-you .fa {
+    color: green;
+    font-size: 4em;
+    margin-left: 21.5%;
+    margin-top: 100px;
+}
+
+.thank-you h1 {
+    color: #fff;
+    margin-right: 55%;
+    text-align: center;
+}
+
+.thank-you p {
+    color: #fff;
+    margin-right: 55%;
+    text-align: center;
+}

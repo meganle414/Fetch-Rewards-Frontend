@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Form</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <section class="header">
+        <nav>
+          <a href="homepage.html"><img class="circle-image" src="images/logo.png" height="150" width="150"></a>
+          <div class="nav-links" id="navLinks">
+            <ul>
+              <li><a href="">Form</a></li>
+              <li><a href="" onclick="window.open('https://help.fetch.com/hc/en-us/articles/1500001336002-Customer-Support-Contact-Information','contactUsTab')">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <section class="body">
+        <form id="form" method="POST">
+          <div class="text-box">
+            <br><h1>Fetch Rewards Form</h1>
+            <i class="fa fa-asterisk"><p> indicates required fields</p></i><br><br>
+          </div>
+          <div class="form-group">
+            <div class="name">
+              <label for="name">Full name:</label>
+              <i class="fa fa-asterisk"></i><br>
+              <input type="text" id="name" name="name" placeholder="John Doe" onkeyup="enableSubmit();" required><br><br>
+            </div>
+            <div class="email">
+              <label for="email">Email:</label>
+              <i class="fa fa-asterisk"></i><br>
+              <input type="email" id="email" name="email" placeholder="john.doe@email.com" onkeyup="enableSubmit();" required><br><br>
+            </div>
+            <div class="password">
+              <label for="password">Password:</label>
+              <i class="fa fa-asterisk"></i><br>
+              <input type="password" id="password" name="password" placeholder="Enter a secure password" minlength="1" maxlength="20" 
+                title="Must be between 1-20 characters" onkeyup="enableSubmit();" required><br><br>
+            </div>
+            <div class="occupations">
+              <label for="occupation">Occupation:</label>
+              <i class="fa fa-asterisk"></i><br>
+              <select name="occupation" id="occupation" onkeyup="enableSubmit();" required></select><br><br>
+            </div>
+            <div class="states">
+              <label for="state">State:</label>
+              <i class="fa fa-asterisk"></i><br>
+              <select name="state" id="state" onkeyup="enableSubmit();" required></select><br><br>
+            </div>
+          </div>
+          <div class="form-submit">
+            <input type="button" id="form-submit" value="Submit" onclick="sendData(); formSubmission();" disabled><br><br>
+          </div>
+        </form>
+        <div class="thank-you" id="thank-you" hidden>
+          <i class="fa fa-check";></i><br>
+          <br><h1>Thank you!</h1>
+          <p>Your form was successfully submitted.</p>
+        </div>
+        <script src="myjs.js"></script>
+      </section>
+    </body>
+</html>
