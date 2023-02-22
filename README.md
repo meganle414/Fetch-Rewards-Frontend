@@ -21,7 +21,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Frontend Screen Shot](https://github.com/meganle414/Fetch-Rewards-Frontend/blob/main/images/frontend-screenshot.png?raw=true)
+![Frontend Screen Shot](https://github.com/meganle414/Fetch-Rewards-Frontend/blob/main/images/frontend-screenshot.png?raw=true)
 
 This project was created as my application for the Fetch Rewards Front End Take Home Exam.
 
