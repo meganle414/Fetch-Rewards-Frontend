@@ -96,6 +96,6 @@ I may complete this exercise using any languages or frameworks I'd like.
 
 Megan Le - meganle414@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/meganle414/Fetch-Rewards-Frontend)
+Project Link: [https://github.com/meganle414/Fetch-Rewards-Frontend](https://github.com/meganle414/Fetch-Rewards-Frontend)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
