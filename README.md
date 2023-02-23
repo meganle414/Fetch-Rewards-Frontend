@@ -85,7 +85,7 @@ My site must:
 * Allow a user to complete and submit the form
 * Do not allow form submission without completing the entire form
 * Provide feedback upon successful form submission
-* Have its soure code stored in a code repository
+* Have its source code stored in a code repository
 * Be hosted on the internet
 
 I may complete this exercise using any languages or frameworks I'd like.
